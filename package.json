@@ -1,6 +1,6 @@
 {
   "name": "mgl-spiderifier",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Spiderify markers on mapbox-gl using marker overlays. Note it does not create the spiderfication in the canvas but on a overlay on top of the canvas. This uses mapboxgl.Marker to create markers and spider legs.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -21,6 +21,9 @@
   },
   "author": "Carlos Jiménez Delgado",
   "license": "ISC",
+  "files": [
+    "dist/*"
+  ],
   "devDependencies": {
     "@types/mapbox-gl": "^1.10.4",
     "node-sass": "^4.14.1",
